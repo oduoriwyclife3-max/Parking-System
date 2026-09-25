@@ -1,0 +1,33 @@
+# --- Frontend (Vite / React) ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# --- Backend (Spring Boot / Gradle / Java) ---
+task/build/
+task/.gradle/
+task/target/
+task/.mvn/
+task/mvnw
+task/mvnw.cmd
+
+# --- IDEs & OS Files ---
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
